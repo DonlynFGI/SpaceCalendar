@@ -1,11 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is the about page</h1>
+  <div class="calendar">
+    <h1>The image of the day</h1>
+    <img src="image" alt="" />
   </div>
 </template>
 
 <script>
+import { img } from "./Page.vue";
 export default {
-  name: 'AboutPage'
-}
+  name: "Calendar",
+  image: `${img}`,
+};
 </script>

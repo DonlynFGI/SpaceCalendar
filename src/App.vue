@@ -14,7 +14,6 @@
 
 <script>
 import { computed } from "vue";
-// import { page } from "./components/Page.vue";
 import { AppState } from "./AppState";
 export default {
   name: "App",
